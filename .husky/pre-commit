@@ -1,0 +1,25 @@
+echo '🏗️👷 Linting, checking format, and typechecking BeavsAI before commit....'
+
+npm run lint
+
+if [ $? -ne 0 ]; then
+  echo " ❌ Linting failed. Please fix the issues before committing."
+    exit 1
+fi
+
+npm run check-format ||
+(
+    clear
+    echo " ❌ Code formatting issues found. Please run 'npm run format' to fix them before committing."
+    exit 1
+)
+
+npm run type-check ||
+(
+    echo " ❌ Typechecking failed. Please fix the issues before committing."
+    exit 1
+)
+
+echo '✅ Linting, checking format, and typechecking BeavsAI passed!'
+
+exit 0

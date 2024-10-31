@@ -69,9 +69,9 @@ Beavs AI is an application that provides an AI Chatbot that is knowledgeable abo
           </a>
         </td>
         <td align="center">
-          <a href="https://github.com/SeanG-rsd">
-            <img src="https://images.weserv.nl/?url=github.com/SeanG-rsd.png&fit=cover&mask=circle" width="80"><br>
-            Sean Gutmann
+          <a href="https://github.com/aaryan2811">
+            <img src="https://avatars.githubusercontent.com/u/86810052?v=4&size=64" width="80"><br>
+            Aaryan Raghuvanshi
             </a>
         </td>
       </tr>
